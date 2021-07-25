@@ -1,0 +1,80 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "GPLApp/1.0.0": {
+        "type": "project",
+        "compile": {
+          "bin/placeholder/GPLApp.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/GPLApp.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "GPLApp/1.0.0": {
+      "type": "project",
+      "path": "../GPLApp/GPLApp.csproj",
+      "msbuildProject": "../GPLApp/GPLApp.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    ".NETCoreApp,Version=v3.1": [
+      "GPLApp >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\dell\\.nuget\\packages\\": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\dell\\source\\repos\\GPLApp\\GPLUnitTesting\\GPLUnitTesting.csproj",
+      "projectName": "GPLUnitTesting",
+      "projectPath": "C:\\Users\\dell\\source\\repos\\GPLApp\\GPLUnitTesting\\GPLUnitTesting.csproj",
+      "packagesPath": "C:\\Users\\dell\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\dell\\source\\repos\\GPLApp\\GPLUnitTesting\\obj\\",
+      "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\dell\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "netcoreapp3.1"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "projectReferences": {
+            "C:\\Users\\dell\\source\\repos\\GPLApp\\GPLApp\\GPLApp.csproj": {
+              "projectPath": "C:\\Users\\dell\\source\\repos\\GPLApp\\GPLApp\\GPLApp.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "netcoreapp3.1": {
+        "imports": [
+          "net461"
+        ],
+        "assetTargetFallback": true,
+        "warn": true
+      }
+    }
+  }
+}
